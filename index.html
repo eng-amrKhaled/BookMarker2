@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Document</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css
+" rel="stylesheet">
+
+    <!-- ******** Google fonts ********* -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap"
+        rel="stylesheet">
+   
+    <!-- ******** Google fonts ********* -->
+</head>
+
+<body>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="edit">
+                <h1 class="pt-3 pb-5 text-center">Bookmarker</h1>
+                <div class="edit2"></div>
+            </div>
+            <hr>
+            <p class="text-center green right"> <i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i
+                    class="fa-solid fa-bookmark"></i> </p>
+
+            <div class="mb-3">
+                <label for="bookmarkerName" class="form-label fw-bolder"><i class="fa-solid fa-book-bookmark pe-2"></i> Site Name</label>
+                <input oninput="validateForm(this)" type="text" class="form-control" id="bookmarkerName" placeholder="Bookmarker Name">
+            </div>
+            <div class="mb-3">
+                <label for="bookmarkerUrl" class="form-label fw-bolder"><i class="fa-solid fa-link pe-2"></i> Site URL</label>
+                <input oninput="validateForm(this)" type="email" class="form-control" id="bookmarkerUrl" placeholder="Website URL">
+            </div>
+            <div class="text-center">
+                <button onclick="submit()" class="my-2 rounded-3">Submit</button>
+            </div>
+            <hr>
+            
+            <div class="container py-5">
+                <div class="row bg-white">
+                    <div class="col-md-12">
+                        <div class="inner d-flex justify-content-around">
+                            <p>index</p>
+                            <p>Website Name</p>
+                            <p>Visit</p>
+                            <p>Delete</p>
+                        </div>
+                    </div>
+                    <div id="rowData">
+
+                    </div>
+                </div>
+            </div>
+
+
+          
+
+            <!-- <div class="d-flex justify-content-around index bg-white">
+                <p>Index</p>
+                <p>Website Name</p>
+                <p>Visit</p>
+                <p>Delete</p>
+            </div>
+            <div class="d-flex justify-content-around index bg-white">
+                <p>1</p>
+                <p>Amr</p>
+                <button class="btn btn-success">visit</button>
+                <button class="btn btn-danger">Delete</button>
+                
+            </div> -->
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.all.min.js
+"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>

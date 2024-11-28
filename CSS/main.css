@@ -1,0 +1,87 @@
+h1 {
+    font-family: "Pacifico", cursive;
+    color: rgb(53, 46, 40);
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 500;
+
+
+}
+
+.edit {
+    position: relative;
+    
+}
+.green{
+    color: #40A55B;
+}
+
+.edit2 {
+    position: absolute;
+    bottom:40%;
+    left: 40%;
+    width: 260px;
+    height: 20px;
+    background-color: rgb(254, 194, 96);
+    z-index: -1;
+    transition: all 0.6s;
+}
+.edit:hover .edit2{
+    height: 40px;
+}
+.right{
+    font-family: "Righteous", sans-serif;
+}
+p,
+label {
+    font-family: "PT Sans Caption", sans-serif;
+}
+p{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+body {
+    background-color: #F7ECDE;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 .25rem rgba(254,194,96,0.6);
+}
+button{
+    padding: 5px 50px;
+    background-color: #D1512D;
+    color: white;
+    transition: all 0.5s;
+ 
+}
+button:hover{
+    background-color: #983a20;
+}
+.inner p{
+    transform: translatey(10px);
+    color: rgb(33, 37, 41);
+    font-size: 16px;
+    font-weight:700;
+    line-height: 24px;
+}
+
+.move{
+    transform: translatex(10px);
+}
+.move p,button{
+    transform: translatex(50px);
+}
+.move button{
+    transform: translateX(20px);
+}
+.move .visit{
+    transform: translatex(70px);
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
